@@ -29,7 +29,7 @@ export default function TierSelection({ selectedTier, onTierSelect, onProjectCre
       onProjectCreate(data);
       toast({
         title: "Project Created Successfully",
-        description: `Generated ${data.tasksCount} tasks for your ${TIER_DEFINITIONS[selectedTier!].name} tier project.`,
+        description: `Generated ${data.tasksCount} tasks for your ${TIER_DEFINITIONS[selectedTier! as keyof typeof TIER_DEFINITIONS].name} tier project.`,
       });
     },
     onError: (error) => {
@@ -217,7 +217,7 @@ export default function TierSelection({ selectedTier, onTierSelect, onProjectCre
               <div className="flex justify-between items-center">
                 <span className="text-sm text-gray-600">Selected Tier:</span>
                 <span className="font-medium text-gray-900">
-                  {selectedTier ? TIER_DEFINITIONS[selectedTier].name : 'Not Selected'}
+                  {selectedTier ? TIER_DEFINITIONS[selectedTier as keyof typeof TIER_DEFINITIONS].name : 'Not Selected'}
                 </span>
               </div>
               <div className="flex justify-between items-center">

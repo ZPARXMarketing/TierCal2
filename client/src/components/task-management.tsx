@@ -96,6 +96,14 @@ export default function TaskManagement({ project, selectedTier }: TaskManagement
   }
 
   const { tasks } = projectData;
+  
+  if (!tasks) {
+    return (
+      <div className="mt-8 text-center">
+        <p className="text-gray-600">No tasks found for this project.</p>
+      </div>
+    );
+  }
   const completedTasks = tasks.filter((task: any) => task.isCompleted).length;
   const totalTasks = tasks.length;
   const progressPercentage = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;

@@ -14,7 +14,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const project = await storage.createProject({
         ...projectData,
         userId: "demo-user"
-      });
+      } as any);
 
       // Generate tasks for the project
       const tasks = generateTasksForTier(project.tier, project.startDate, project.id);

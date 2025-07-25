@@ -41,16 +41,21 @@ export const insertUserSchema = createInsertSchema(users).pick({
 export const insertProjectSchema = createInsertSchema(projects).omit({
   id: true,
   createdAt: true,
+  userId: true,
 }).extend({
   startDate: z.string().transform((str) => new Date(str)),
 });
 
 export const insertTaskSchema = createInsertSchema(tasks).omit({
   id: true,
+}).extend({
+  scheduledDate: z.date().or(z.string().transform((str) => new Date(str))),
 });
 
 export const updateTaskSchema = createInsertSchema(tasks).pick({
   isCompleted: true,
+}).extend({
+  isCompleted: z.boolean()
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
