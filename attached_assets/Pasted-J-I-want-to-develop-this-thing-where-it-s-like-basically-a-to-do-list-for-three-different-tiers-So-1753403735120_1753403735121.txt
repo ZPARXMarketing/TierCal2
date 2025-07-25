@@ -1,0 +1,80 @@
+J
+I want to develop this thing where it’s like basically a to do list for three different tiers.
+
+So the user will select one of the tears and there’s three of them based on what the client wants so like if the client picks one, it should give the user A to do list of all the items on tier one.
+If the user selects tier 2, it will give the user a to do list of all the items on tier 2, the same for three.
+
+The object of this, so the employee can keep track of all of the items they’re supposed to do within that tier for the client.
+
+
+———
+
+Scheduling 
+
+Now that the user has selected the correct tier, they will need to repeat this process every month .
+
+It needs to help schedule it for each month .
+
+It needs to accurately display the items to be done in succession that will repeat each month. They will need to schedule it automatically spreading out the tasks over that month onto the correct days.
+
+
+
+Well, then, output a calendar  to download.
+
+The standard format for downloading a calendar compatible with Apple Calendar and Google Calendar is iCalendar (.ics)
+
+Included in all of these at the end of every month will be a scheduled reminder to send the client a copy of the things that have been completed .
+
+****
+
+Social Media Marketing Services Tiers
+Tier 1: Basic - $500/month
+* Social Media Account Setup/Optimization: Create or optimize 2 platforms (e.g., Facebook, Instagram).
+* Content Posting: 8 posts/month (2 per week) across platforms.
+* Basic Analytics Report: Monthly overview of engagement metrics.
+* Community Engagement: Respond to comments/messages (up to 10 interactions/month).
+Tier 2: Standard - $1,200/month
+* Everything in Basic Tier
+* Additional Platforms: Manage up to 4 platforms (e.g., Facebook, Instagram, Twitter, LinkedIn).
+* Content Posting: 16 posts/month (4 per week).
+* Content Creation: Custom graphics for 50% of posts.
+* Ad Management: $100 ad spend included, basic campaign setup/monitoring.
+* Detailed Analytics Report: Monthly report with insights and recommendations.
+* Community Engagement: Up to 25 interactions/month.
+Tier 3: Premium - $2,500/month
+* Everything in Standard Tier
+* All Major Platforms: Manage up to 6 platforms (e.g., Facebook, Instagram, Twitter, LinkedIn, TikTok, Pinterest).
+* Content Posting: 30 posts/month (daily or near-daily).
+* Advanced Content Creation: Custom graphics/videos for 75% of posts.
+* Ad Management: $300 ad spend included, advanced targeting/optimization.
+* Influencer Collaboration: Coordinate with 1-2 micro-influencers/month.
+* SEO-Optimized Hashtags/Keywords: Tailored for each platform.
+* Weekly Analytics Report: Detailed performance tracking with strategy adjustments.
+To-Do List for Each Tier
+Tier 1: Basic
+* 1st of Month: Review/optimize social media profiles (update bios, images).
+* 5th, 12th, 19th, 26th: Schedule 2 posts/week (8 total/month).
+* 10th, 20th: Respond to comments/messages (up to 5 interactions per session).
+* 30th: Generate and send basic analytics report.
+Tier 2: Standard
+* 1st of Month: Review/optimize profiles on 4 platforms.
+* 3rd, 10th, 17th, 24th: Schedule 4 posts/week (16 total/month).
+* 7th, 14th, 21st, 28th: Create custom graphics for 8 posts.
+* 5th: Set up ad campaign with $100 budget.
+* 15th, 25th: Monitor/adjust ad performance.
+* 10th, 20th, 30th: Respond to comments/messages (up to 8-9 interactions per session).
+* 30th: Generate and send detailed analytics report with recommendations.
+Tier 3: Premium
+* 1st of Month: Review/optimize profiles on 6 platforms.
+* Daily (or 2nd, 4th, 6th, etc.): Schedule 30 posts/month (1-2 posts/day).
+* 5th, 12th, 19th, 26th: Create custom graphics/videos for 22-23 posts.
+* 5th: Set up advanced ad campaign with $300 budget.
+* 10th, 20th, 30th: Optimize ad targeting/performance.
+* 7th, 21st: Coordinate with 1-2 micro-influencers (content planning/approvals).
+* 3rd, 17th: Research/update SEO-optimized hashtags/keywords.
+* 7th, 14th, 21st, 28th: Respond to comments/messages (unlimited within reason).
+* 7th, 14th, 21st, 28th: Generate/send weekly analytics report with strategy adjustments.
+******
+It needs to have a day for users to set the initial date to start off in the beginning .
+
+Once the start date is selected, all dates after that need to update. 
